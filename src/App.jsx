@@ -1,11 +1,9 @@
+import Header from "./Components/Header";
+
 function App() {
   return (
     <div>
-      <div id ="main-header">
-        <header>Logo</header>
-        <button>Cart</button>
-      </div>
-      
+      <Header/>
       <main id="meals">
         <ul className="meal-item">
           <li>Food Items</li>
