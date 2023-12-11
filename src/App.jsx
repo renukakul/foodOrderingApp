@@ -1,14 +1,11 @@
 import Header from "./Components/Header";
+import Meals from "./Components/Meals";
 
 function App() {
   return (
     <div>
       <Header/>
-      <main id="meals">
-        <ul className="meal-item">
-          <li>Food Items</li>
-        </ul>
-      </main>
+      <Meals/>
     </div>
   );
 }
