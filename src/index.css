@@ -222,11 +222,14 @@ h1 {
 }
 
 .text-button {
-  font: inherit;
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
-  background-color: transparent;
+  background-color: #ffc404;
   border: none;
-  color: #ffc404;
+  font-weight: bold;
+  color: #6546b4;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
 }
 
 .text-button:hover,
