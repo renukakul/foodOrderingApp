@@ -43,10 +43,10 @@
   },
   {
     "id": "m7",
-    "name": "Steak Frites",
-    "price": "17.99",
-    "description": "Succulent steak cooked to your preference, served with crispy golden fries and herb butter.",
-    "image": "images/steak-frites.jpg"
+    "name": "Lemon Cheesecake",
+    "price": "6.99",
+    "description": "A creamy cheesecake with a tangy lemon flavor, served on a crumbly biscuit base.",
+    "image": "images/lemon-cheesecake.jpg"
   },
   {
     "id": "m8",
@@ -127,10 +127,10 @@
   },
   {
     "id": "m19",
-    "name": "Lemon Cheesecake",
-    "price": "6.99",
-    "description": "A creamy cheesecake with a tangy lemon flavor, served on a crumbly biscuit base.",
-    "image": "images/lemon-cheesecake.jpg"
+    "name": "Steak Frites",
+    "price": "17.99",
+    "description": "Succulent steak cooked to your preference, served with crispy golden fries and herb butter.",
+    "image": "images/steak-frites.jpg"
   },
   {
     "id": "m20",
