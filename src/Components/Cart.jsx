@@ -5,6 +5,7 @@ import Modal from "./Modal.jsx";
 import CartContext from "../store/Cartcontext.jsx"
 import UserProgressContext from "../store/UserProgressContext.jsx";
 import CartItems from "./CartItems.jsx";
+import CheckoutForm from "./CheckoutForm.jsx";
 
 // Functional component representing the shopping cart
 export default function Cart() {
@@ -21,6 +22,10 @@ export default function Cart() {
     // Function to close the cart modal
     function handleCloseCart() {
         userProgressCtx.hideCart();
+    }
+
+    function handleGoToCheckout(){
+      userProgressCtx.showCheckout();
     }
 
     // Render the cart modal with cart items and total
@@ -47,7 +52,8 @@ export default function Cart() {
                 <Button textOnly onClick={handleCloseCart}>
                     Close
                 </Button>
-                <Button onClick={handleCloseCart}>Go to Checkout</Button>
+                {cartCtx.items.length > 0 && (
+                <Button onClick={handleGoToCheckout}>Go to Checkout</Button>)}
             </p>
         </Modal>
     );
