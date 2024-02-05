@@ -24,6 +24,7 @@ using the Express framework. This system allows users to view available meals, p
 3. **Real-time Order Tracking and Comprehensive History:**
    - Users can track the real-time status of their current orders through a dynamic interface powered by React's useEffect hook.
    - The system maintains a detailed history of completed orders, allowing easy referencing and review of past orders using React components and state management.
+   - check order.json to see history
 
 4. **Backend Powered by Node.js and Express:**
    - The scalable and non-blocking environment provided by Node.js supports the backend, while Express is employed to create RESTful APIs for handling meal data and order processing.
